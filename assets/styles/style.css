@@ -62,7 +62,7 @@ a {
     padding: 1.2em 1.8125em;
     font-weight: 900;
     font-size: var(--fs);
-     text-decoration: none;   
+    text-decoration: none;   
     white-space: nowrap;
     text-overflow: ellipsis;
     display: flex;
@@ -86,23 +86,14 @@ a:not(.block_button) {
      background-color: var(--bg-button-footer);
 }
 
-a:hover:not(.block_button) {
-    background-color: var(--bg-button-footer--hover);
-}
-
-.nobb.block_button {
-    background-color:none; 
-}
-
 a:not(.nobb) {
-     background-color:none;
-}
-
-a:hover:not(.nobb) {
     background-color: none;
 }
 
 
+a:hover:not(.block_button) {
+    background-color: var(--bg-button-footer--hover);
+}
 
 span, hr {
     opacity: .6;
@@ -455,6 +446,4 @@ width: inherit;
 .header_title h1 {
     font-size: 4rem;
     line-height: 4rem;
-
-}
 }

@@ -89,9 +89,20 @@ a:not(.block_button) {
 a:hover:not(.block_button) {
     background-color: var(--bg-button-footer--hover);
 }
+
 .nobb.block_button {
     background-color:none; 
 }
+
+a:not(.nobb) {
+     background-color:none;
+}
+
+a:hover:not(.nobb) {
+    background-color: none;
+}
+
+
 
 span, hr {
     opacity: .6;

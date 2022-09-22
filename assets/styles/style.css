@@ -89,7 +89,7 @@ a:not(.block_button) {
 a:hover:not(.block_button) {
     background-color: var(--bg-button-footer--hover);
 }
-.no styl{
+.nobb{
     background-color:var(--fc)
 }
 span, hr {

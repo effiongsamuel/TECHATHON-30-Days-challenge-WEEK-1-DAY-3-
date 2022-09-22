@@ -89,7 +89,9 @@ a:not(.block_button) {
 a:hover:not(.block_button) {
     background-color: var(--bg-button-footer--hover);
 }
-
+.no styl{
+    background-color:var(--fc)
+}
 span, hr {
     opacity: .6;
 }
